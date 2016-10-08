@@ -21,7 +21,7 @@ app.directive('questionList', function () {
 
 			$scope.setCurrentQuestion = function (question) {
 				$scope.setCurrentQuestion({ question: question });
-			}
+			};
 
 			// $scope.nextQuestion = function () {
 			// 	var idx = $scope.questions.indexOf($scope.currentQuestion);
@@ -68,8 +68,8 @@ app.directive('questionList', function () {
 			// 		$scope.checkMyAnswers();
 			// 	}
 			// }
-			
+
 
 		}
-	}
-})
+	};
+});
